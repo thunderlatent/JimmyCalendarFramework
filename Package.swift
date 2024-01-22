@@ -49,10 +49,7 @@ let package = Package(
        targets: ["CalendarControlFrameWork"]),
   ],
   dependencies: [
-      .package(
-          url: "https://github.com/SnapKit/SnapKit.git",
-          .exact("5.7.0")
-      )
+    .package(url: "https://github.com/SnapKit/SnapKit.git", from: Version("5.7.0"))
   ],
   targets: [
 //3
