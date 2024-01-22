@@ -29,7 +29,10 @@
         "name": "SnapKit",
         "printedName": "SnapKit",
         "declKind": "Import",
-        "moduleName": "CalendarControlFrameWork"
+        "moduleName": "CalendarControlFrameWork",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -490,98 +493,98 @@
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2103,
+      "offset": 2124,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2134,
+      "offset": 2155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2324,
+      "offset": 2345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2407,
+      "offset": 2428,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 2701,
+      "offset": 2722,
       "length": 14,
       "value": "\"EEEE, MMMM d\""
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3157,
+      "offset": 3178,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3344,
+      "offset": 3365,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3895,
+      "offset": 3916,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3899,
+      "offset": 3920,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3905,
+      "offset": 3926,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4823,
+      "offset": 4844,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5472,
+      "offset": 5493,
       "length": 3,
       "value": "350"
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6003,
+      "offset": 6024,
       "length": 15,
       "value": "\"Tap to select\""
     },
     {
       "filePath": "\/Users\/YuMing\/Desktop\/iOSApp\/Example Project\/CreateFrameworkForiOS\/starter\/2-Framework\/CalendarControlFrameWork\/CalendarControlFrameWork\/View\/CalendarDateCollectionViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6137,
+      "offset": 6158,
       "length": 4,
       "value": "true"
     },

@@ -48,21 +48,11 @@ let package = Package(
             name: "CalendarControlFrameWork",
             targets: ["CalendarControlFrameWork"]
         )
-    
-        
-    ],
-    dependencies: [
-        .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.7.0")
     ],
     targets: [
-        .target(
-            name: "CalendarControlFrameWork",
-            dependencies: ["SnapKit"]
-        ),
         .binaryTarget(
             name: "CalendarControlFrameWork",
             path: "./Sources/CalendarControlFrameWork.xcframework")
-        
     ]
 )
 

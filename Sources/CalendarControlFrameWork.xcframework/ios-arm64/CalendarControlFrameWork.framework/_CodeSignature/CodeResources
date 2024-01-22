@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		sxM5KiSuHYxAFXE+OengJsGjw+U=
+		uj15DXtmAEes06HqiY8/8Ns7ie4=
 		</data>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		xKLfCh9Yy0D+ts1MVlfxC9jQYsg=
+		8M0+QWHYvU9YYigOJobSrnds44Q=
 		</data>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		xKLfCh9Yy0D+ts1MVlfxC9jQYsg=
+		8M0+QWHYvU9YYigOJobSrnds44Q=
 		</data>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PE77ZVI6s1YQrAOFt9tr7dcOx70=
+		YjRdeMU0nUTcTr5fZ55v5+GzuLM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/lSGst60EmTYmYZhGMsgUSgLXRMjcMPIUy6KGpQLSYQ=
+			XgqVqVw+sIV8UwAU0UVYsXkz986eN2Nh4XlYkMSGRGI=
 			</data>
 		</dict>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w5wdkaBObrRdqwpRTFh5WgZN3HBwf8mGLWBBSu27KhM=
+			TRDqtwECMQWHJWtlxn55mZ3CfgZXVF1bMHqg1wK3pQY=
 			</data>
 		</dict>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w5wdkaBObrRdqwpRTFh5WgZN3HBwf8mGLWBBSu27KhM=
+			TRDqtwECMQWHJWtlxn55mZ3CfgZXVF1bMHqg1wK3pQY=
 			</data>
 		</dict>
 		<key>Modules/CalendarControlFrameWork.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XgfLzZxxSz2HG6eSk5hfpO3Ce6EiKCcGRX+w0VEc45c=
+			5smHgvMzBh1SnzUMAZnokZMAs0Ri1U/Gl0Bh2GOlXnU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
