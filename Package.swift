@@ -53,6 +53,9 @@ let package = Package(
   ],
   targets: [
 //3
+    .target(name: "CalendarControlFrameWork",
+            dependencies: [.product(name: "SnapKit", package: "SnapKit")]
+           ),
     .binaryTarget(
         name: "CalendarControlFrameWork",
         path: "./Sources/CalendarControlFrameWork.xcframework")
