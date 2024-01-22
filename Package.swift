@@ -36,30 +36,30 @@
 import PackageDescription
 
 let package = Package(
-  name: "CalendarControlFrameWork",
-  platforms: [
-//1
-    .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
-
-  ],
-  products: [
-//2
-    .library(
-       name: "CalendarControlFrameWork",
-       targets: ["CalendarControlFrameWork"]),
-  ],
-  dependencies: [
-    .package(url: "https://github.com/SnapKit/SnapKit.git", from: Version("5.7.0"))
-  ],
-  targets: [
-//3
-    .target(name: "CalendarControlFrameWork",
-            dependencies: [.product(name: "SnapKit", package: "SnapKit")]
-           ),
-    .binaryTarget(
-        name: "CalendarControlFrameWork",
-        path: "./Sources/CalendarControlFrameWork.xcframework")
-  ]
+    name: "CalendarControlFrameWork",
+    platforms: [
+        //1
+        .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
+        
+    ],
+    products: [
+        //2
+        .library(
+            name: "CalendarControlFrameWork",
+            targets: ["CalendarControlFrameWork"]
+        )
+    
+        
+    ],
+    dependencies: [
+        .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.7.0")
+    ],
+    targets: [
+        .binaryTarget(
+            name: "CalendarControlFrameWork",
+            path: "./Sources/CalendarControlFrameWork.xcframework")
+        
+    ]
 )
 
 
