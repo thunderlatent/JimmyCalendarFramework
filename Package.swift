@@ -36,7 +36,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "JimmyCalendarKit",
+  name: "CalendarControlFrameWork",
   platforms: [
 //1
     .macOS(.v10_15), .iOS(.v14), .tvOS(.v14)
@@ -45,13 +45,43 @@ let package = Package(
   products: [
 //2
     .library(
-       name: "JimmyCalendarKit",
-       targets: ["JimmyCalendarKit"]),
+       name: "CalendarControlFrameWork",
+       targets: ["CalendarControlFrameWork"]),
+  ],
+  dependencies: [
+      .package(
+          url: "https://github.com/SnapKit/SnapKit.git",
+          .exact("5.7.0")
+      )
   ],
   targets: [
 //3
     .binaryTarget(
-        name: "JimmyCalendarKit",
-        path: "./Sources/JimmyCalendarKit.xcframework")
+        name: "CalendarControlFrameWork",
+        path: "./Sources/CalendarControlFrameWork.xcframework")
   ]
 )
+
+
+//xcodebuild archive \
+//-scheme CalendarControlFrameWork \
+//-configuration Release \
+//-destination 'generic/platform=iOS' \
+//-archivePath './build/CalendarControlFrameWork.framework-iphoneos.xcarchive' \
+//SKIP_INSTALL=NO \
+//BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+//
+//
+//xcodebuild archive \
+//-scheme CalendarControlFrameWork \
+//-configuration Release \
+//-destination 'generic/platform=iOS Simulator' \
+//-archivePath './build/CalendarControlFrameWork.framework-iphonesimulator.xcarchive' \
+//SKIP_INSTALL=NO \
+//BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+//
+//
+//xcodebuild -create-xcframework \
+//-framework './build/CalendarControlFrameWork.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/CalendarControlFrameWork.framework' \
+//-framework './build/CalendarControlFrameWork.framework-iphoneos.xcarchive/Products/Library/Frameworks/CalendarControlFrameWork.framework' \
+//-output './build/CalendarControlFrameWork.xcframework'
